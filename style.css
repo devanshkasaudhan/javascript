@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+h1 {
+  margin: 1rem;
+  font-weight: 900;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  line-height: 2rem;
+  font-size: 2rem;
+}
+.buttons {
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  height: 2rem;
+  width: 3rem;
+}
+
+.buttons:hover {
+  height: 2.2rem;
+  width: 3.2rem;
+}
+
+.functions {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.l12 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.zero {
+  width: auto;
+}
+
+.zero:hover {
+  height: 2.2rem;
+  width: 8.4rem;
+}
+
+.screen {
+  padding: 0.5rem 1rem;
+  border: 2px solid black;
+  height: 2rem;
+  width: 18.31rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.operatorLine {
+  background-color: rgb(255, 115, 0);
+}
+
+.l12with0 {
+  background-color: rgb(187, 187, 187);
+}
+.line3 {
+  background-color: rgb(187, 187, 187);
+}
